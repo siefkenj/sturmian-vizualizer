@@ -1,0 +1,60 @@
+#container {
+	margin: 2em;
+}
+
+
+
+#convergents {
+	float: left;
+}
+#prettyprinted {
+	float: left;
+}
+.approx {
+	color: gray;
+}
+
+.inputblock {
+	display: inline-block;
+	margin-right: 1em;
+}
+label {
+	display: block;
+	font-variant: small-caps;
+	color: gray;
+}
+.inputarea {
+	margin-bottom: .6em;
+	display: inline-block;
+}
+
+.inputblock input {
+	font-family: monospace;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
+	color: #333;
+	min-height: 34px;
+	outline: medium none;
+	padding: 7px 8px;
+	vertical-align: middle;	
+}
+.inputblock input:focus {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.075) inset, 0 0 3px rgba(81, 167, 232, 0.5);
+}
+#continuedfraction {
+	width: 20em;
+}
+
+#convergents {
+	min-width: 15em;
+}
+#convergents .content {
+	font-size: .8em;
+}
+#prettyprinted .content {
+	font-size: .6em;
+}

@@ -1,0 +1,104 @@
+.level0 {
+	color: red;
+}
+.level1 {
+	color: blue;
+}
+
+.left {
+	float: left;
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+}
+.right {
+	float: right;
+	word-wrap: break-word;
+	width: 250px;
+	margin: 0px;
+	padding: 0px;
+}
+.middle {
+	margin-left: 200px;
+	margin-right: 250px;
+	word-wrap: break-word;
+}
+#levelchooser {
+	display: block;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#levelchooser li {
+	display: block;
+	cursor: pointer;
+	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
+	color: #333;
+	outline: medium none;
+	padding: 2px 8px;
+	margin: 2px;
+	width: 7em;
+	text-align: center;
+	vertical-align: middle;
+}
+#levelchooser li.selected {
+	background: #FFD17E;
+}
+#levelshower ul {
+	display: block;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 1em;
+	margin-right: auto;
+}
+#levelshower li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+#sequence {
+}
+
+#sequenceview h4 {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+
+/* nav menu */
+#nav {
+	font-weight: bold;
+	padding: 3px 20px;
+	width: 100%;
+	background: #333;
+	color: #aaa;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#nav div {
+	cursor: pointer;
+	display: inline-block;
+	color: #ccc;
+}
+#nav .selected {
+	color: #fff;
+}
+#container,body {
+	padding: 0px;
+	margin: 0px;
+}
+#fracarea,#displayarea {
+	margin: .2em 2em;
+}
+body {
+	font-family: sans-serif;
+}
